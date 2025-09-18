@@ -164,16 +164,11 @@ for face in faces:
 
 ```
 face-recognition-system/
-├── 📂 app/                 # Application core
-│   ├── 📂 api/            # FastAPI endpoints
-│   ├── 📂 core/           # Core recognition logic
-│   ├── 📂 models/         # Model files
-│   ├── 📂 services/       # Business logic
-│   └── 📂 utils/          # Utility functions
+├── 📂 core/           # Core recognition logic
+├── 📂 models/         # Model files
+│── 📂 utils/          # Utility functions
 ├── 📂 data/               # Data storage
 │   ├── 📂 known_faces/    # Face database
-│   ├── 📂 input/          # Input files
-│   └── 📂 output/         # Processed results
 ├── 📂 tests/              # Test suites
 ├── 📂 config/             # Configuration files
 └── 📂 scripts/            # Utility scripts
