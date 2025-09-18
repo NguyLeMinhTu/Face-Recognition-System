@@ -1,0 +1,17 @@
+model:
+  name: "buffalo_s"
+  confidence_threshold: 0.6
+  device: "cpu"
+  local_path: "./models/buffalo_s"
+
+database:
+  known_faces_path: "./data/test_img"
+  max_faces_per_user: 1
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+
+performance:
+  batch_size: 8
+  max_workers: 2
